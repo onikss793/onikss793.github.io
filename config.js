@@ -3,9 +3,8 @@
 module.exports = {
   url: "https://github.com/onikss793/onikss793.github.io",
   pathPrefix: "/",
-  title: "Blog by John Doe",
-  subtitle:
-    "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  title: "Blog by Daniel Yoo",
+  subtitle: "Welcome to my Blog",
   copyright: "© All rights reserved.",
   disqusShortname: "",
   postsPerPage: 4,
@@ -26,10 +25,9 @@ module.exports = {
     }
   ],
   author: {
-    name: "John Doe",
-    photo: "/photo.jpg",
-    bio:
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    name: "Daniel Yoo",
+    photo: "/profile.JPG",
+    bio: "Born and Raised in S.Korea",
     contacts: {
       email: "",
       facebook: "#",
