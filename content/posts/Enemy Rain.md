@@ -5,6 +5,10 @@ template: "post"
 draft: false
 slug: "/posts/enemy_rain"
 category: "HTML css javascript"
+tags:
+  - "HTML"
+  - "css"
+  - "javascript"
 description: "What I Learnded From Making Vanila Javascript Game"
 socialImage: ""
 ---
