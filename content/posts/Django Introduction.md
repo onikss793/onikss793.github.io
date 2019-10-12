@@ -1,5 +1,5 @@
 ---
-title: "Django"
+title: "Django Introduction"
 date: "2019.10.08"
 template: "post"
 draft: false
