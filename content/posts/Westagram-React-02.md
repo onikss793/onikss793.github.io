@@ -19,4 +19,6 @@ westagram을 react로 재구성하면서 새롭게 알게 된 것들을 정리�
 
 2. component 단위에서 state로 상태 및 데이터를 관리하고 업데이트할 수 있어 효율적인 유지, 보수가 가능하다. 하지만 주의해야하는 것은 this.setState()를 이용해 state를 변경하고, 그 변경된 값을 이용해 어떠한 작업을 하기 원하는 경우, 반드시 call-back 함수를 이용해야 한다. 왜냐하면 javascript는 비동기로 작동하기 때문에 this.setState() 바로 다음에 있는 함수에 state가 변경된 이후의 값이 반영되지 않기 떼문이다.
 
-3.
+3. Package Manager 개발할 때 필요한 Library를 관리해주는 프로그램이다. 원래는 Node-Package-Manager만 존재했다. 그러나 속도가 느리고, 보안에 취약하다는 이슈가 부각되면서 yarn이 등장했다. yarn과 npm이 저장하는 곳은 동일하다.
+
+4. input에 카드 번호와 같은 것을 넣을 때, form 태그에 타입 card 를 사용해서 크롬에서 지원하는 기능을 사용한다. install i save --s
