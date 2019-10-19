@@ -68,3 +68,5 @@ render, componentDidMount, componentDidUpdate, componentWillUnmount 등의 함�
 ![lifecycle](https://yeri-kim.github.io/media/190417-lifecycle-1.png)
 
 위와 같은 순서대로 작동하며, 효율적인 Rendering을 위해 각각의 순서를 인지하여 적절한 곳에 함수와 Method를 배치하는 것이 중요하다.
+
+componentDidMount() : render() 메서드 다음에 호출된다. this.setState()를 사용할 수 있어 다시 render를 해야 할 때 사용할 수 있다. 그로므로 fetch data를 할 때 사용 가능하며, event listener, setTimeOut 등을 이용하면 유용하게 사용할 수 있다.
