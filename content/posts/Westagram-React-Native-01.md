@@ -3,7 +3,7 @@ title: "Westagram React Native"
 date: "2019.10.18"
 template: "post"
 draft: false
-slug: "/posts/westagram_react_native/"
+slug: "/posts/westagram_react_native01/"
 category: "React Native"
 tags:
   - "React Native"
