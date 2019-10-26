@@ -56,7 +56,8 @@ export default Index;
 ```
 
 반드시 위와 같은 방식으로 import를 해줘야 한다는 것이다.  
-`Home: { screen: Main },` 밑에 screen을 추가할 수 있다. screen으로 넘어가려면 아래와 같이 작성하면 된다.
+`Home: { screen: Main },` 에서 Home은 stack의 이름이라고 생각하면 된다. 저 이름을 사용해서 stack을 이동할 수 있다.  
+밑에 screen을 추가할 수 있다. screen으로 넘어가려면 아래와 같이 작성하면 된다.
 
 ```js
 // Sample.js
@@ -138,3 +139,5 @@ export default createAppContainer(
   })
 );
 ```
+
+`createAppContainer()`를 사용하면 여러개의 stack을 담은 App을 만들 수 있다. 그리고 `createSwitchNavigator()`를 사용하면 말 그대로 switch하면서 이동할 수 있는 navigator를 만들 수 있다.
