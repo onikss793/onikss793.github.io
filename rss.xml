@@ -1,4 +1,747 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Daniel Yoo]]></title><description><![CDATA[Welcome to my Blog]]></description><link>https://github.com/onikss793/onikss793.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 23 Oct 2019 05:51:45 GMT</lastBuildDate><item><title><![CDATA[TIL 191023]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191023/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191023/</guid><pubDate>Tue, 22 Oct 2019 15:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[Westagram React Native]]></title><description><![CDATA[React Native Navigation]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native02/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native02/</guid><pubDate>Tue, 22 Oct 2019 15:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[TIL 191022]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191022/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191022/</guid><pubDate>Mon, 21 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;react-native&quot;&gt;&lt;a href=&quot;#react-native&quot; aria-label=&quot;react native permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;React Native&lt;/em&gt;&lt;/h3&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog by Daniel Yoo]]></title><description><![CDATA[Welcome to my Blog]]></description><link>https://github.com/onikss793/onikss793.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 02 Nov 2019 06:26:34 GMT</lastBuildDate><item><title><![CDATA[Wemeet(Project)-01]]></title><description><![CDATA[Things I've learned through project]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191101/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191101/</guid><pubDate>Thu, 31 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;stickycss&quot;&gt;&lt;a href=&quot;#stickycss&quot; aria-label=&quot;stickycss permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Sticky(css)&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;main-right-wrapper&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div className&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;main-right&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Card
+      startDate&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;startDate&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      endDate&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;endDate&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      address&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;address&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      findGroup&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;findGroup&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      geo&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; lat&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lat&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; lng&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lng &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;GoogleMap geo&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; lat&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lat&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; lng&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;lng &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;main&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;right&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;wrapper &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;main&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;right &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      position&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; sticky&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      top&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;120&lt;/span&gt;px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;스크롤 할 때, 일정 부분 이상 내려오면 화면에 붙어서 같이 움직이고 싶은 Element가 있다면 sticky를 쓰면 매우 유용하다. sticky는 top, bottom, right, left 중 하나를 필수로 작성해야 한다. 그러면 해당 값에 위치했을 때를 무조건 유지하게 된다. 하지만 주의해야 하는 것은 sticky의 이름 뜻처럼 해당 element가 붙을 wrapper를 만들어주어야 한다는 것이다. 위의 코드에서 stick되는 부분은 &lt;code class=&quot;language-text&quot;&gt;.main-right&lt;/code&gt;이다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;.main-right-wrapper&lt;/code&gt;가 없이 적용했을 경우 아예 stick되지 않는다. 하지만 main-right-wrapper로 해당 element가 붙을 수 있도록 해주면 그때부터 정상적으로 작동한다.&lt;/p&gt;
+&lt;h2 id=&quot;react-router-querystring&quot;&gt;&lt;a href=&quot;#react-router-querystring&quot; aria-label=&quot;react router querystring permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;React Router Querystring&lt;/h2&gt;
+&lt;p&gt;React는 Router라는 써드 파티 라이브러리를 사용할 수 있다. 이것을 잘 쓰면 매우 유용하게 화면 전환이 가능하다.&lt;br&gt;
+Wemeet 프로젝트에서 다양한 이벤트 리스트들이 존재하는데 특정한 이벤트를 클릭할 경우 해당 이벤트에 대한 api 호출을 해야 한다. 결국 이벤트 페이지는 하나이지만 어떠한 데이터를 받아오느냐에 따라 다양한 텍스트가 보여져야 하는 것이다. 같은 페이지이지만 다른 url을 사용하려고 할 때 쓸 수 있는 것이 바로 querystring이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Route exact path&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/event/:eventId&quot;&lt;/span&gt; component&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;Event&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;먼저 &lt;code class=&quot;language-text&quot;&gt;&amp;lt;Route&amp;gt;&lt;/code&gt;에 어떠한 기준으로 url을 다르게 할 것인지를 위처럼 &lt;code class=&quot;language-text&quot;&gt;:querystring&lt;/code&gt;으로 구분해야 한다. 위의 경우에는 각각의 이벤트의 아이디를 기준으로 하였다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getData&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; eventId &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;match&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;http://localhost:8000/event/&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;eventId&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그럼 이제 event list가 있는 페이지에서 특정 이벤트를 클릭할 경우, 그 이벤트의 아이디를 기준으로 예를 들면, &lt;code class=&quot;language-text&quot;&gt;https://localhost:8000/event/${특정아이디}&lt;/code&gt; 페이지로 넘어가게 된다.&lt;/p&gt;
+&lt;p&gt;그 이벤트 페이지가 mount 되는 순간 &lt;code class=&quot;language-text&quot;&gt;const { eventId } = this.props.match.params;&lt;/code&gt; 를 통해 그 이벤트 아이디를 사용해 GET 요청을 보내 해당 데이터를 받을 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL 191031]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191031/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191031/</guid><pubDate>Wed, 30 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;인증&quot;&gt;&lt;a href=&quot;#%EC%9D%B8%EC%A6%9D&quot; aria-label=&quot;인증 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;인증&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;인증과 인가는 API 중에서 자주 쓰이는 API 중 하나이다. private API는 물론이고 public한 API의 경우에도 대부분 필요하다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;비밀번호 암호에는 단방향 해쉬 함수(one-way hash function)가 일반적으로 쓰인다.&lt;/strong&gt;&lt;br&gt;
+단방향 해시 함수는 원본 메시지를 변환하여 암호화된 메시지인 다이제스트(digest)를 생성한다. 원본 메시지를 알면 암호화된 메시지를 구하기는 쉽지만 암호화된 메시지로는 원본 메시지를 구할 수 없어서 단방향성(one-way) 이라고 한다.&lt;/p&gt;
+&lt;h4 id=&quot;rainbow-attack&quot;&gt;&lt;a href=&quot;#rainbow-attack&quot; aria-label=&quot;rainbow attack permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Rainbow Attack&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;Rainbow table attack - 미리 해쉬값들을 계산해 놓은 테이블을 Rainbow table이라고 한다.&lt;/em&gt;&lt;br&gt;
+해시 함수는 원래 패스워드를 저장하기 위해서 설계된 것이 아니라 짧은 시간에 데이터를 검색하기 위해 설계된 것이다 (Remember Set?). 그렇기 때문에 해시 함수는 본래 처리 속도가 최대한 빠르도록 설계되었다. 이러한 속성 때문에 공격자는 매우 빠른 속도로 임의의 문자열의 다이제스트와 해킹할 대상의 다이제스트를 비교할 수 있다(MD5를 사용한 경우 일반적인 장비를 이용하여 1초당 56억 개의 다이제스트를 대입할 수 있다). 이런 방식으로 패스워드를 추측하면 패스워드가 충분히 길거나 복잡하지 않은 경우에는 그리 긴 시간이 걸리지 않는다 (대부분 사용자의 패스워드는 길거나 복잡하지 않을 뿐 아니라, 동일한 패스워드를 사용하는 경우도 많다).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Salting&lt;/strong&gt;&lt;br&gt;
+실제 비밀번호 이외에 추가적으로 랜덤 데이터를 더해서 해시값을 계산하는 방법.
+기본적으로 salt 값을 따로 저장해두어야 한다.
+salting의 목적은 salt 값까지 미리 계산해둔 Rainbow Table을 만드는 것을 거의 불가능하게 만드는 역할이다. 기술적으로는 salt 값까지 모두 역추적은 가능하다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Stretching&lt;/strong&gt;&lt;br&gt;
+단방향 해쉬값을 계산 한 후 그 해쉬값을 또 또 해쉬 하고, 또 이를 반복하는 것을 말한다.
+최근에는 일반적인 장비로 1초에 50억 개 이상의 다이제스트를 비교할 수 있지만, 키 스트레칭을 적용하여 동일한 장비에서 1초에 5번 정도만 비교할 수 있게 한다. GPU(Graphics Processing Unit)를 사용하더라도 수백에서 수천 번 정도만 비교할 수 있다. 50억 번과는 비교할 수도 없을 정도로 적은 횟수다. 앞으로 컴퓨터 성능이 더 향상되면 몇 번의 반복을 추가하여 보완할 수 있다.&lt;/p&gt;
+&lt;h4 id=&quot;json-web-token&quot;&gt;&lt;a href=&quot;#json-web-token&quot; aria-label=&quot;json web token permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;JSON Web Token&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;access token을 생성하는 방법은 여러가지가 있는데, 그 중 가장 널리 사용되는 기술중 하가 바로 JWT(JSON Web Tokens)이다.&lt;br&gt;
+JWT는 말 그대로 유저 정보를 담음 JSON 데이터를 암호화 해서 클라이언트와 서버간에 주고 받는 것이다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;JWT의 사용 이유&lt;/strong&gt;: http 통신의 stateless라는 특성 때문에 한번 로그인 한 뒤 권한을 확인하는 것이 어렵다. 그래서 가장 단순한 방법으로 매 통신마다 로그인 정보를 담아 보낼 수 있다. 하지만 그렇게 할 경우, 브라우저에 민감한 로그인 정보를 항상 담고 있어야 하며 매 통신마다 로그인 절차를 반복해야 하기 때문에 매우 비효율적이다. 그래서 효율적인 통신을 위해 웹 토큰을 만들어 서로 주고 받는다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;간략한 절차:&lt;/strong&gt; secret key를 이용해 암호화해둔 Signature를 복호화 -&gt; 서버 내부에서 생성된 것이 맞는지 확인 -&gt; decode -&gt; user 정보 확인&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;주의 사항:&lt;/strong&gt; 민감한 개인정보는 넣어두면 안 되고 단순히 데이터베이스에서 확인이 가능한 정보만 넣어야 한다(예를 들어 priamry key).&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL 191030]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191030/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191030/</guid><pubDate>Tue, 29 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;database&quot;&gt;&lt;a href=&quot;#database&quot; aria-label=&quot;database permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Database&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Database는 데이터를 저장 및 보존하는 시스템이다.&lt;/p&gt;
+&lt;p&gt;Database를 사용하지 않으면&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;첫째로 메모리에 저장할 수가 있다. 하지만 그렇게 할 경우, 속도는 빠르지만 영구 보존이 안 된다.&lt;/li&gt;
+&lt;li&gt;둘째로 파일에 저장할 수 있다. 그렇게 하면, 효과적인 데이터 저장이 힘들어진다. (ex: 어제 작업한 것 중, 어떤 특정 단어만 업데이트할 경우 매우 힘들어진다) 그리고 파일의 용량이 커질 경우 속도가 매우 느려질 수 있다.&lt;/li&gt;
+&lt;li&gt;결과적으로 영구 보존을 하면서 효과적인 데이터 저장을 위해 데이터 베이스를 사용한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;관계형-데이터베이스rdbms-relational-database-management-system&quot;&gt;&lt;a href=&quot;#%EA%B4%80%EA%B3%84%ED%98%95-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B2%A0%EC%9D%B4%EC%8A%A4rdbms-relational-database-management-system&quot; aria-label=&quot;관계형 데이터베이스rdbms relational database management system permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;관계형 데이터베이스(RDBMS, Relational DataBase Management System)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 테이블을 나누는 기준을 설정하는 것이 백앤드 개발자의 역할이다.&lt;/li&gt;
+&lt;li&gt;데이터를 테이블을 기준으로 나누는데 행과 열로 나눌 수 있다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;각각의 테이블은 컬럼(column)과 row(로우)로 구성된다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;서로 연결되어 있는 key를 foreign key라고 한다. 이 foreign key는 실제 존재하는 값이여야만 한다. 존재 하지 않는 데이터는 참조할 수가 없다.&lt;/li&gt;
+&lt;li&gt;컬럼은 테이블의 각 항목을 말한다. 행으로 생각하면 된다.&lt;/li&gt;
+&lt;li&gt;로우는 각 항목들의 실제 값들을 이야기 한다. 열로 생각하면 된다.&lt;/li&gt;
+&lt;li&gt;각 로우는 저만의 고유 키(Primary Key)가 있다. 주로 이 primary key를 통해서 해당 로우를 찾거나 인용(reference)하게 된다.&lt;/li&gt;
+&lt;li&gt;PM key를 쓰는 이유는, 컨텍스트가 있는 값들은 변할 가능성이 있기 때문에 변하지 않는 고유한 값을 주는 것이다.(surrogate, natural gate)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;데이터를 왜 관계형으로 연결하는가?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;데이터 완전성 때문이다.&lt;/li&gt;
+&lt;li&gt;데이터가 틀릴 가능성을 아주 줄여준다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;트랜잭션transaction&quot;&gt;&lt;a href=&quot;#%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98transaction&quot; aria-label=&quot;트랜잭션transaction permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;트랜잭션(Transaction)&lt;/strong&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;ACID를 제공함으로 따라서 트랜잭션(일련의 작업들을 한번에 하나의 unit으로 실행하는것) 기능을 제공하다.&lt;/li&gt;
+&lt;li&gt;트랜잭션은 일련의 작업들이 마치 하나의 작업처럼 취급되어서 모두 다 성공하거나 아니면 모두 다 실패하는걸 이야기 한다.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Commit &amp;#x26; rollback&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;마치 은행에서 이체를 하는 과정과 같다. 이체에 필요한 모든 과정을 다 하나의 과정으로 묶고 그 과정 중, 하나만 실패하면 처음 과정이 실행하기 전으로 돌아가는 것을 말한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;sql&quot;&gt;&lt;a href=&quot;#sql&quot; aria-label=&quot;sql permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;SQL&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;SELECT&lt;/strong&gt;&lt;br&gt;
+데이터를 읽어 들일때 사용&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SELECT
+    id,
+    name,
+    age,
+    gender
+FROM users&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;WHERE&lt;/strong&gt; 구문을 사용해 검색도 가능&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SELECT
+    id,
+    name,
+    age,
+    gender
+FROM users
+WHERE name = &amp;quot;아이유&amp;quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;INSERT&lt;/strong&gt;&lt;br&gt;
+데이터를 생성할때 사용&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;INSERT INTO users (
+    id,
+    name,
+    age,
+    gender
+) VALUES (
+    1,
+    &amp;quot;아이유&amp;quot;,
+    27,
+    &amp;quot;여자&amp;quot;
+), (
+    2,
+    &amp;quot;제인&amp;quot;,
+    19,
+    &amp;quot;여자&amp;quot;
+)&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;UPDATE&lt;/strong&gt;&lt;br&gt;
+데이터를 수정할때 사용
+&lt;code class=&quot;language-text&quot;&gt;UPDATE users SET age = 25 WHERE name = &amp;quot;아이유&amp;quot;&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;DELETE&lt;/strong&gt;&lt;br&gt;
+데이터를 삭제할때 사용&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;DELETE FROM users WHERE gender = &amp;quot;남자&amp;quot;&lt;/code&gt;
+&lt;strong&gt;Exist&lt;/strong&gt;&lt;br&gt;
+어떠한 조건이 존재 하는지 하지 않는지 확인 할때 사용하는 SQL 문.&lt;br&gt;
+예를 들어, 특정 user_name이 이미 존재하는지 확인 하고 싶을 때&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SELECT 1
+FROM users
+WHERE EXISTS (SELECT *
+              FROM users
+              WHERE user_name = &amp;#39;아이유&amp;#39;);
+NOT EXIST 를 사용하여 반대의 경우도 체크 할 수 있다.
+SELECT lname, fname
+FROM customer
+WHERE NOT EXISTS (SELECT *
+                  FROM orders
+                  WHERE customers.customer_id = orders.c_id);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;Join&lt;/strong&gt;&lt;br&gt;
+Foreign key(외부키)로 걸려있는 2개의 table들을 join(연결)해서 양쪽 table에서 모두 row를 읽어 들이고 싶을 때는 join 문을 사용해야 함.&lt;br&gt;
+즉, join은 교집합 이라고 생각하면 된다.&lt;br&gt;
+Join 기본 문법&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SELECT
+테이블별칭.조회할칼럼,
+테이블별칭.조회할칼럼
+FROM 기준테이블 별칭
+INNER JOIN 조인테이블 별칭 ON 기준테이블별칭.기준키 = 조인테이블별칭.기준키&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Join 실제 예&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;SELECT
+  users.id,
+  users.name,
+  users.age,
+  users.gender,
+  accounts.account_type
+FROM users
+JOIN accounts ON accounts.id = users.account_id&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;join 여러 유형들&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;(INNER) JOIN: 일반적인 join문. 기준이 되는 테이블 (left table)과 join이 걸리는 테이블(right table) 양쪽 모두에 matching되는 row만 select가 됨.&lt;/li&gt;
+&lt;li&gt;LEFT (OUTER) JOIN: 기준이 되는 테이블 (left table)의 모든 row와 join이 걸리는 테이블(right table)중 left table과 matching되는 row만 select가 됨.&lt;/li&gt;
+&lt;li&gt;RIGHT (OUTER) JOIN: join이 걸리는 테이블(right table)의 모든 row와 기준이 되는 테이블 (left table)에서 right table과 matching되는 row만 select가 됨.&lt;/li&gt;
+&lt;li&gt;FULL (OUTER) JOIN: 기준이 되는 테이블 (left table)과 join이 걸리는 테이블(right table) 양쪽 모두의 모든 row를 select 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;CREATE TABLE&lt;/strong&gt;&lt;br&gt;
+테이블을 생성할때 사용&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;CREATE TABLE accounts(
+id INT NOT NULL AUTO_INCREMENT,
+account_type VARCHAR(100) NOT NULL,
+PRIMARY KEY (id)
+);
+
+CREATE TABLE users(
+id INT NOT NULL AUTO_INCREMENT,
+name VARCHAR(255) NOT NULL,
+email VARCHAR(255) NOT NULL,
+hashed_password VARCHAR(255) NOT NULL,
+account_id INT NOT NULL,
+PRIMARY KEY (id),
+UNIQUE KEY email (email),
+CONSTRAINT `users_account_fkey` FOREIGN KEY (`account_id`) REFERENCES `accounts` (`id`)
+);&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Media-Query]]></title><description><![CDATA[Introductino to Media Query]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/media-query/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/media-query/</guid><pubDate>Sun, 27 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;media-query&quot;&gt;&lt;a href=&quot;#media-query&quot; aria-label=&quot;media query permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Media Query&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;media query는 css 내부에 삽입하는 방법, 링크로 연결하는 방법이 있다. css 내부에 삽입하는 방법은 아래와 같다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+@&lt;span class=&quot;token function&quot;&gt;media&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;max&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;width&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;700&lt;/span&gt;px&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;container &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    margin&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    padding&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;px&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;style&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;링크로 연결할 때는 아래처럼 하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;link red&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;stylesheet&quot;&lt;/span&gt; media&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;(max-width: 700px)&quot;&lt;/span&gt; href&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;test.css&quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;연산자&quot;&gt;&lt;a href=&quot;#%EC%97%B0%EC%82%B0%EC%9E%90&quot; aria-label=&quot;연산자 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;연산자&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;and&lt;/strong&gt;: 여러 미디어 특징들을 하나로 결합&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;, (or)&lt;/strong&gt;: 쉼표로 분리된 각 목록은 개별 미디어 퀴리&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;not&lt;/strong&gt;: 전체 미디어 쿼리를 부정하기 위해 사용&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;only&lt;/strong&gt;: 미디어 쿼리를 지원하지 않는 브라우저가 주어진 스타일을 적용하는 것을 방지
+&lt;em&gt;not이나 only를 사용하려면 미디어 타입을 규정해야 한다&lt;/em&gt;
+&lt;em&gt;미디어 쿼리는 대소문자 구별하지 않는다&lt;/em&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;기본적인 media query&lt;/strong&gt;
+&lt;code class=&quot;language-text&quot;&gt;@media (min-width: 700px) {background-color:yellow;}&lt;/code&gt;&lt;br&gt;
+최소 너비 700px일 때 스타일을 적용한다. 즉, 700px 이상일 때만 적용한다는 뜻&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;and 연산자&lt;/strong&gt;
+&lt;code class=&quot;language-text&quot;&gt;media (min-width: 700px) and (orientation: portrait) {...}&lt;/code&gt;&lt;br&gt;
+최소 너비 700px 이상일 때 그리고 방향이 세로 모드일 때만 적용한다는 뜻&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;쉼표(or) 연산자&lt;/strong&gt;&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;media (min-width: 700px), print and (orientation: landscape) {...}&lt;/code&gt;&lt;br&gt;
+최소 너비 700px 이상일 때 적용하거나, 프린트 장치에서는 가로 방향일 때만 적용한다는 뜻&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;not 연산자&lt;/strong&gt;&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;media not all and (color) {...}&lt;/code&gt;&lt;br&gt;
+not은 전체 미디어 쿼리를 수식한다. 조금 더 알기 쉽게 표현하자면, &lt;code class=&quot;language-text&quot;&gt;media not(all and (color))&lt;/code&gt;와 같은 말이다.&lt;br&gt;
+하지만 쉼표를 사용하면 개별 미디어 쿼리로 인식하므로 not을 끊어서 사용하고 싶다면 쉼표 연산자를 사용하면 된다.&lt;/p&gt;
+&lt;h3 id=&quot;media-type&quot;&gt;&lt;a href=&quot;#media-type&quot; aria-label=&quot;media type permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;media type&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;all&lt;/strong&gt;: 기본값, 모든 미디어 장치에 사용&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;print&lt;/strong&gt;: 프린터에 사용&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;screen&lt;/strong&gt;: 컴퓨터, 태블릿, 스마트폰 등의 스크린&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;speech&lt;/strong&gt;: 페이지를 읽어주는 화면 낭독기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;media-feature&quot;&gt;&lt;a href=&quot;#media-feature&quot; aria-label=&quot;media feature permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;media feature&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;width | height (min / max)&lt;/li&gt;
+&lt;li&gt;device-width | device-height (min / max)&lt;/li&gt;
+&lt;li&gt;aspect-ratio (min / max)&lt;/li&gt;
+&lt;li&gt;divice-aspect-ratio ( min / max)&lt;/li&gt;
+&lt;li&gt;color, color-index ( min / max)&lt;/li&gt;
+&lt;li&gt;monochrome ( min / max)&lt;/li&gt;
+&lt;li&gt;resolution ( min / max)&lt;/li&gt;
+&lt;li&gt;scan | grid ( min / max)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;description&quot;&gt;&lt;a href=&quot;#description&quot; aria-label=&quot;description permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;description&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;min | max : 최소, 최대를 말한다. &lt;strong&gt;(min)보다 크고, (max)보다 작게&lt;/strong&gt;로 생각하면 이해하기 쉽다.&lt;/li&gt;
+&lt;li&gt;width | height : 화면의 너비, 높이&lt;/li&gt;
+&lt;li&gt;device-(height | width) : 출력 장치의 너비, 높이&lt;/li&gt;
+&lt;li&gt;aspect-ratio : 화면 영역의 가로 세로 비율( &lt;code class=&quot;language-text&quot;&gt;/&lt;/code&gt;를 사용해, 앞에는 수평 비율, 뒤에는 수직 비율을 적용할 수 있다)&lt;/li&gt;
+&lt;li&gt;device-aspect-ratio : 출력 장치의 가로, 세로 비율(첫 번째 값이 수평, 두번째 값이 수직)&lt;/li&gt;
+&lt;li&gt;color : 출력 장치의 색상 구성요소 당 비트 수&lt;/li&gt;
+&lt;li&gt;color-index : 장치가 표시할 수 있는 색상 수&lt;/li&gt;
+&lt;li&gt;grid : 출력 장치가 그리드 장치 또는 비트맵 장치냐에 따라 결정(그리드이면 1, 아니면 0)&lt;/li&gt;
+&lt;li&gt;monochrome : 흑백 장치에 색상 당 비트 수&lt;/li&gt;
+&lt;li&gt;orientation : 화면이 가로 모드인지, 세로 모드인지 지정(ex: &lt;code class=&quot;language-text&quot;&gt;@media all and (orientation: portrait) {...} // 오직 세로 방향에서만 적용&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;resolution : 출력 장치의 해상도(dpi(dots per inch) 혹은 dpcm(dots per cintimeter))&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[TIL 191028]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191028/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191028/</guid><pubDate>Sun, 27 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;group-project&quot;&gt;&lt;a href=&quot;#group-project&quot; aria-label=&quot;group project permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Group Project&lt;/strong&gt;&lt;/h1&gt;
+&lt;h2 id=&quot;objective&quot;&gt;&lt;a href=&quot;#objective&quot; aria-label=&quot;objective permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Objective&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Team-work: 코딩은 무조건 협업 중심이다. 크롬 브라우저를 위해 1000명이 협업을 한다. 팀 단위로 일하는 것에 익숙해져야 한다.&lt;/li&gt;
+&lt;li&gt;유사한 cycle을 경험하는 것이 목표이다. 코드가 나오는 것과, 상품, 서비스가 나오는 것은 다른 문제이다. 그래서 개발 프로세스를 경험하고 그에 맞추어 일을 하는 것이 중요하다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;process--scrum&quot;&gt;&lt;a href=&quot;#process--scrum&quot; aria-label=&quot;process  scrum permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Process : Scrum&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scurm은 전세계에서 가장 많이 사용하는 개발 프로세스이다. 개발자는 물론 비개발 분야에서도 많이 활용하는 작업 방식이다.&lt;/li&gt;
+&lt;li&gt;planni meeting kanban board&lt;/li&gt;
+&lt;li&gt;daily standup meeting, github, PR &amp;#x26; Code Review
+&lt;em&gt;ex) Tree Swing - 프로젝트 진행 시작에서부터 그 과정에 miscommunication이 많다. 고객과 seller 간의 gap도 굉장히 크다. 사람 간의 이해하는 간극이 있기 때문이다.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;개요&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%9A%94&quot; aria-label=&quot;개요 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;개요&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;전체 개발의 68%가 실패한다. 왜냐하면 개발이라는 것 자체가 인류에게 새로운 분야이기 때문이다. 미국의 경우 60년 정도, 우리나라의 경우 20년 정도 밖에 되지 않았다 =&gt; 노하우가 없고, 기존 제조업 방식으로 운영한다.&lt;/li&gt;
+&lt;li&gt;scrum은 1968년 일본의 토요타가 먼저 발명했다. 추후 미국에서 도입하여 소프트웨어 개발 프로젝트 운영에 널리 쓰였다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;scrum의-기본-철학&quot;&gt;&lt;a href=&quot;#scrum%EC%9D%98-%EA%B8%B0%EB%B3%B8-%EC%B2%A0%ED%95%99&quot; aria-label=&quot;scrum의 기본 철학 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Scrum의 기본 철학&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;개발업무는 소요시간과 진행과정을 예상하기가 어렵다.&lt;/li&gt;
+&lt;li&gt;막상 작업을 시작하면서 생기는 변수와 어려움들을 모두 예상하기 힘들기 때문이다.&lt;/li&gt;
+&lt;li&gt;scrum은 이러한 문제들의 피해를 최소화하는데에 있다.&lt;/li&gt;
+&lt;li&gt;Scrum은 단기적인 계획을 여러번 짠다. 이러한 짧은 주기를 Sprint라고 한다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&quot;진행-방법&quot;&gt;&lt;a href=&quot;#%EC%A7%84%ED%96%89-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;진행 방법 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;진행 방법&lt;/strong&gt;&lt;/h4&gt;
+&lt;ol&gt;
+&lt;li&gt;스프린트 첫 날, 단기 계획을 한다. planning meeting&lt;/li&gt;
+&lt;li&gt;각자 주어진 일을 완료한다.&lt;/li&gt;
+&lt;li&gt;매일 모든 팀원들이 각자의 진행상황을 공유한다. standup meeting&lt;br&gt;
+&lt;em&gt;- 어제 했던 일&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- 오늘 할 일&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;- 다른 사람에 의해 막혀있는 것, 다른 사람이 해줘야 하는 것(blocker)&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;위의 주기를 프로젝트가 끝날 때까지 반복한다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&quot;효과&quot;&gt;&lt;a href=&quot;#%ED%9A%A8%EA%B3%BC&quot; aria-label=&quot;효과 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;효과&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;현실적인 계획을 할 수 있다.&lt;/li&gt;
+&lt;li&gt;차질이 생길 경우 금방 대처할 수 있다.&lt;br&gt;
+&lt;strong&gt;Waterfall 방식&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;기획 -&gt; 디자인 -&gt; 개발 -&gt; 테스트 -&gt; 배포&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;Agile 방식&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;(기획 -&gt; 디자인 -&gt; 개발 -&gt; 테스트 -&gt; 배포)를 여러번 반복&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Scrum = MVP(Minimum Viable Product) = Gross Hacking&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;code-of-conduct&quot;&gt;&lt;a href=&quot;#code-of-conduct&quot; aria-label=&quot;code of conduct permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Code of Conduct&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;시간 엄수&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;각자 맡은 일은 정해진 시간 안에 완성&lt;/li&gt;
+&lt;li&gt;미팅 시간 엄수&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;책임감&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;타인에게 의존하거나 떠넘기지 말자.&lt;/li&gt;
+&lt;li&gt;내가 맡은 것은 책임감 있게 완수 + 맡지 않은 일도 기꺼이 하자.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;팀워크&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;도전 정신&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;쉬운 것만 하지말고, 어려운 것을 하자.&lt;/li&gt;
+&lt;li&gt;모르고 이해 안 되는 것도 두려워하지 말고 하자.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[TIL 191028]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191028/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191028/</guid><pubDate>Sun, 27 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;ol&gt;
+&lt;li&gt;git master에 초기 세팅&lt;/li&gt;
+&lt;li&gt;처음에 그 파일들을 받으려면 clone -&gt; local의 master가 생긴다. -&gt; git flow(branch 이름, 규칙에 대한 콘셉트)&lt;/li&gt;
+&lt;li&gt;node_modules 없고, package.json의 공유가 되어 있지 않다. 그렇기 때문에 해당 라이브러리 다운 받는 것. npm install&lt;/li&gt;
+&lt;li&gt;새로운 branch를 만들 때는 &lt;code class=&quot;language-text&quot;&gt;feature/login&lt;/code&gt;와 같이 작성한다.&lt;/li&gt;
+&lt;li&gt;중간에 push하고 싶을 때는 &lt;code class=&quot;language-text&quot;&gt;git push origin feature/login&lt;/code&gt;으로 해야 한다.&lt;/li&gt;
+&lt;li&gt;push 후에는 pull request를 보내야 한다.&lt;/li&gt;
+&lt;li&gt;merge 후에 다시 origin master로 돌아가면 이전 상태로 돌아가는 것이기 때문에 항상 pull을 해줘야 한다. 그리고 다시 branch를 나누어야 한다.&lt;/li&gt;
+&lt;li&gt;충돌이 일어날 경우, conflict를 차분히 보고 해결하면 된다.
+(git stash: commit하지 않고 임시 저장 - 특정 branch에서 작업하다가 다른 branch로 넘어가서 작업할 경우)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;google-maps-api&quot;&gt;&lt;a href=&quot;#google-maps-api&quot; aria-label=&quot;google maps api permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;google maps api&lt;/strong&gt;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;npm install --save google-maps-react&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;import { Map, GoogleApiWrapper } from &amp;#39;google-maps-react&amp;#39;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;3.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Map
+      google&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;google&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      zoom&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;mapStyles&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      initialCenter&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; lat&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;47.444&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; lng&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;122.176&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;ol start=&quot;4&quot;&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;export default GoogleApiWrapper({ apiKey: &amp;#39;TOKEN HERE&amp;#39; })(MapContainer);&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;</content:encoded></item><item><title><![CDATA[TIL 191026]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191026/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191026/</guid><pubDate>Fri, 25 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;django에서 암호화에 대해 공부하다 보니 드는 의문점들을 정리해보았다.&lt;/p&gt;
+&lt;h3 id=&quot;해싱이란&quot;&gt;&lt;a href=&quot;#%ED%95%B4%EC%8B%B1%EC%9D%B4%EB%9E%80&quot; aria-label=&quot;해싱이란 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;해싱이란?&lt;/h3&gt;
+&lt;p&gt;대부분의 탐색 방법들은 탐색 키를 저장된 키 값과 반복적으로 비교하면서(반복문의 개념) 탐색을 원하는 항목에 접근한다.&lt;/p&gt;
+&lt;p&gt;반면 해싱은 키 값(배열의 인덱스라고 생각하면 된다)에 직접 산술적인 연산을 적용하여 항목이 저장되어 있는 테이블의 주소를 계산하여 항목에 접근한다.&lt;/p&gt;
+&lt;p&gt;이렇게 키 값의 연산에 의해 직접 접근이 가능한 구조를 해시 테이블(hash table)이라 부르고, 해시 테이블을 이용한 탐색을 해싱(hashing)이라 한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;해시 함수&lt;/strong&gt;란 탐색 키 &lt;em&gt;(인덱스의 역할을 하지만 문자열이거나 굉장히 큰 숫자이기 때문에 바로 인덱스로 활용하기에는 문제가 있다)&lt;/em&gt;를 입력으로 받아 &lt;strong&gt;해시 주소&lt;/strong&gt;를 생성하고 이 해시 주소가 &lt;strong&gt;배열로 구현된 해시 테이블&lt;/strong&gt;의 인덱스가 된다.&lt;/p&gt;
+&lt;p&gt;이 배열의 인덱스 위치에 자료를 저장할 수도 있고 저장된 자료를 꺼낼 수도 있다.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(예를 들어 영어 사전을 배열 hashTable[]에 저장한다고 하면 단어을 해싱 함수를 이용하여 적절한 정수 i로 변환한 다음, 배열 요소 hashTable[i]에 단어의 정의를 저장하는 것이다)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;궁금증&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;해싱하기 전, 바이트화 하는 이유는?&lt;/li&gt;
+&lt;li&gt;바이트한 후 해싱을 했다. 그렇다면 db에 저장할 때 다시 디코딩하는 이유는?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;아래는 장고 서버와 다른 서버가 통신할 때 필요한 django cors 기본 세팅이다. 참고로 모든 서버에 오픈되어 있다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;CORS_ALLOW_HEADERS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;accept&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;accept-encoding&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;authorization&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;content-type&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;dnt&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;origin&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;user-agent&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;x-csrftoken&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token string&quot;&gt;&apos;x-requested-with&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+CORS_ORIGIN_ALLOW_ALL &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;
+
+CORS_ALLOW_CREDENTIALS &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;fetch&quot;&gt;&lt;a href=&quot;#fetch&quot; aria-label=&quot;fetch permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Fetch&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;백앤드 서버, 프론트 앤드의 서버가 각각 필요하다. 백앤드 서버의 ip주소를 알면 프론트 앤드 서버에서 해당 ip 주소를 통해 api를 호출할 수 있다.&lt;/p&gt;
+&lt;p&gt;자바 스크립트는 비동기로 작동하기 때문에 fetch를 하게 되면 응답을 기다리기 전에 다른 함수로 넘어간다. 여기서 then을 쓰게 되면 fetch의 응답을 기다렸다가 then()안에 있는 함수를 실행시킨다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;login&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://localhost:8000/account/login&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    method&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;post&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    body&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      user_name&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;idValue&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      password&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;pwValue
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; history &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;message &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;success&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;userToken&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;token&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        history&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;/main&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        window&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;location&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;reload&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;then()안에 있는 json()함수를 사용하면 body에 있는 내용만 json 형태로 변환된다. 그 다음의 then 함수 안에 있는 함수를 통해 원하는 작업을 할 수 있다.&lt;/p&gt;
+&lt;p&gt;만약 백앤드 서버에서 200을 보내면 그것을 조건으로 삼아서 로컬 스토리지 등에 토큰을 저장하고 메인 페이지(다음 페이지)로 넘어갈 수 있다.&lt;/p&gt;
+&lt;p&gt;로그인하는 시점에서 백엔드 서버에서 토큰을 발행 받는다. 그리고 브라우저의 local storage, session storage cookie에 각각 기획의 특성에 맞게 저장한다.&lt;/p&gt;
+&lt;p&gt;그리고 로그인 상태에서 하는 액션에 대해 api 요청을 보낼 때마다 header에 토큰을 담아서 보내, 백앤드 서버에서 사용자를 구분할 수 있도록 한다.&lt;/p&gt;
+&lt;p&gt;Authorization 이라는 key에 담아서 토큰을 보낸다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;updateComments&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://localhost:8000/main&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    method&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;post&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    headers&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; Authorization&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; localStorage&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getItem&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;userToken&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    body&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      comment_text&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;comments&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;desc
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getComments&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;comment를 데이터 베이스에 업로드 하고 이어서 getComment 메서드를 다시 실행시켜 새로운 comment도 render시킨다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;getComments&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;http://localhost:8000/main&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; res&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;then&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;res&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;setState&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; commentInfo&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; res &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[TIL 191025]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191025/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191025/</guid><pubDate>Thu, 24 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;authentification&quot;&gt;&lt;a href=&quot;#authentification&quot; aria-label=&quot;authentification permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Authentification&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;Authentification이란 요청을 보내는 사용자를 신뢰할 수 있는지, 그 권한 여부를 판단하는 메커니즘을 이야기한다.&lt;/p&gt;
+&lt;p&gt;django는 기본적으로 django.auth를 제공한다. 하지만 그 원리를 조금 더 익혀보고자 bcrypt와 jwt를 이용해 인증과 인가를 연습해보려 한다.&lt;/p&gt;
+&lt;p&gt;우선 View에서 bcrypt와 jwt를 사용하려면 install을 먼저 해주어야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;pip install bcrypt
+pip install jwt&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 명령어를 이용하면 설치할 수 있다. 참고로 프로젝트의 가상환경 내에서 설치해야 한다는 것을 잊지 말아야 한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;회원가입&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;기본적인 회원가입에 필요한 데이터 중, 비밀번호는 반드시 암호화해서 데이터베이스에 저장되어야 한다. 먼저 받은 비밀번호를 byte로 인코딩한다. byte로 인코딩된 값은 &lt;code class=&quot;language-text&quot;&gt;b&amp;#39;sss&lt;/code&gt; 로 표시된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;byte_pw       &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;bytes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;signup_data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;password&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;그리고 byte된 비밀번호를 hashing 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;hashed_pw     &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; bcrypt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hashpw&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;byte_pw&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; bcrypt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;gensalt&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;까먹지 안아야 하는 점은 데이터 베이스에 저장할 때는 디코딩(‘utf-8’)해서 저장한다는 점이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;Users&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      name      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; signup_data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;name&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      user_name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; signup_data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;user_name&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      password  &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; hashed_pw&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;decode&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;save&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;로그인&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;로그인을 할 때는 bcrypt에 있는 checkpw()라는 메서드를 사용한다. 인자로는 &lt;code class=&quot;language-text&quot;&gt;checkpw(입력한 비밀번호, db에 있는 비밀번호)&lt;/code&gt; 이렇게 받는데 주의할 점은 입력한 비밀번호, db에 있는 비밀번호 모두 ‘utf-8’ 방식으로 인코딩해야 한다는 것이다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;try&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    user &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Users&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;objects&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;get&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;user_name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;login_data&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;user_name&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; bcrypt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;checkpw&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;encode&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;password&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;encode&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;utf-8&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위처럼 checkpw 메서드의 인자는 반드시 인코딩한 값이 들어가야 한다.
+비밀번호가 일치했다면 프론트앤드 서버로 웹토큰을 발행해주어야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;py&quot;&gt;&lt;pre class=&quot;language-py&quot;&gt;&lt;code class=&quot;language-py&quot;&gt;    payload           &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;user_id&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;id&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;exp&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Oct 25 2019 18:29:52 GMT+0900&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    encryption_secret &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;secret&quot;&lt;/span&gt;
+    algorithm         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;HS256&quot;&lt;/span&gt;
+    encoded           &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; jwt&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;encode&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;payload&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; encryption_secret&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; algorithm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;algorithm&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;jwt를 사용하면 Base64URL로 인코딩을 할 수 있다. 위의 내용을 이해하기 위해서는 먼저 jwt의 구조를 알아야 한다.&lt;br&gt;
+각각은 . 으로 구분되어 있다. 먼저 1번으로 header가 있다. &lt;code class=&quot;language-text&quot;&gt;{ &amp;quot;typ&amp;quot;:&amp;quot;JWT&amp;quot;, &amp;quot;alg&amp;quot;:&amp;quot;HS256&amp;quot; }&lt;/code&gt; 이와 같은 형태로 Token type(JWT), 해시알고리즘을 담고 있다.&lt;br&gt;
+2번으로 payload, 사용자 정보(중요한 정보, 사용자 이름 등은 절대로 담으면 안 된다)가 담겨 있다.&lt;br&gt;
+3번째로 signature, JWT가 원본 그대로라는 것을 확인할 때 사용되는 부분으로써, header, payload 그리고 secret key가 해싱되어 있다.&lt;/p&gt;
+&lt;p&gt;jwt.encode에는 총 3개의 인자를 받을 수 있는데 첫번째는 payload, 즉 담을 내용을 말한다. user.id를 넣을 수 있다. 두번째는 encryption_secret, 다시 말해 암호화할 secret key를 말한다. 세번째로 암호화할 때 사용할 알고리즘을 지정한다. 로그인 후, 프론트엔드 서버와 토큰을 주고 받으며 통신하는 부분은 다음 편에 이어서 적도록 하겠다.&lt;/p&gt;
+&lt;h3 id=&quot;react-native-navigation&quot;&gt;&lt;a href=&quot;#react-native-navigation&quot; aria-label=&quot;react native navigation permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;React Native Navigation&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Drawer Navigation 왼쪽에 navigation 바가 생긴다. (옷장 문여는 것 같아서 생긴 이름인 것 같다).&lt;/p&gt;
+&lt;p&gt;bottomTabNavigation 화면 하단에 navigation 바가 생긴다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;HomeStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigationOptions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  tabBarLabel&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Home&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token function-variable function&quot;&gt;tabBarIcon&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; focused &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TabBarIcon
+      focused&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;focused&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+      name&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        Platform&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;OS&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;ios&quot;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;ios-information-circle&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;focused &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;-outline&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;
+          &lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;md-information-circle&quot;&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;`ios-information-circle${focused ? &amp;#39;&amp;#39; : &amp;#39;-outline&amp;#39;}`&lt;/code&gt; =&gt; React Native에서 제공하는 기본적인 icon들이 있는데(expo vetor icons) 이것들을 이름만 바꾸면 이용할 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL 191024]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191024/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191024/</guid><pubDate>Wed, 23 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;git&quot;&gt;&lt;a href=&quot;#git&quot; aria-label=&quot;git permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Git&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;git은 Version Control System, 즉 버전 관리 시스템이다. 여기서 버전은 소스코드 파일의 version을 말한다.&lt;/p&gt;
+&lt;p&gt;버전 관리가 필요한 이유는 이전의 데이터를 백업해둘 필요가 있기 때문이다. git은 이러한 버전 관리를 제공해주는 시스템인 것이다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;버전 관리에 필요한 데이터 베이스를 만들고, 그것에 접속할 수 있는 시스템이 git인 것이다.&lt;/li&gt;
+&lt;li&gt;코드 변경 사항 내역 기록 및 관리&lt;/li&gt;
+&lt;li&gt;필요시 이전 상태로 rollback&lt;/li&gt;
+&lt;li&gt;팀단위 개발시 체계적이고 효과적인 협업&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;modified -&gt; staged(git add) -&gt; committed(history에 저장)&lt;/p&gt;
+&lt;h3 id=&quot;git-basics&quot;&gt;&lt;a href=&quot;#git-basics&quot; aria-label=&quot;git basics permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Git Basics&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Git을 사용해서 파일 버전 관리를 할때 파일은 다음 3개의 상태중 하나의 상태에 있게 된다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Committed&lt;/strong&gt;&lt;br&gt;
+수정 사항들이 git에 저장이 된 상태를 “committed” 이라고 한다. 이러한 행위를 “commit” 한다고 한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Modified&lt;/strong&gt;&lt;br&gt;
+Modified file은 이름 그대로 수정된 file이다. 하지만 아직 “commited” 되지 않은 상태의 file을 이야기 한다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Staged&lt;/strong&gt;&lt;br&gt;
+Staged file은 modified file에서 한단계 더 나아가서 곧 commit 될거라고 mark 해놓은 상태이다. 즉 modified 와 committed의 중간 상태라고 생각하시면 돤다.&lt;br&gt;
+이렇게 중간 상태가 존재 하는 이유는, commit 하기전에 중간 상태를 저장할 수 있도록 하기 위함이다. Commit을 하면 commit history에 남기도 하고, 혹시 추가 수정 사항이 있거나 다시 되돌려야 할때 까다롭기 때문에 (commit 후에도 다시 되돌리는게 가능은 하다) commit 전에 중간 상태에 저장할 수 있도록 하는 것이다. 즉, commit은 해당 개발이 완전 완료 됬을때 하는 것이기 때문에, 아직 완료는 안되었지만 그래도 중간 상태를 저장할 필요가 있을때 staging을 사용하는 것이다. &lt;em&gt;(function 하나를 만들 때도 중간 save를 하면서 작업하는 습관을 들일 필요가 있다)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;branch를 나누는 기준은 기능, feature 단위로 한다. 개별적인 기능의 유지, 보수를 효율적으로 운영 가능하다.&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;기능적 branch는 한 개만 운영하는 것이 원칙이다.&lt;/em&gt; &lt;em&gt;왜냐하면 나중에 merge할 때 관리하기 힘들다.&lt;/em&gt;
+&lt;em&gt;보통 한 개의 기능을 구현하는데 한 명의 개발자가 일한다.&lt;/em&gt; &lt;em&gt;두 명 정도가 한 개의 branch에서 작업할 수는 있지만, 3명 이상이 하는 경우는 드물다.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&quot;gitignore-file&quot;&gt;&lt;a href=&quot;#gitignore-file&quot; aria-label=&quot;gitignore file permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;.gitignore File&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Git repo에 있는 모든 파일을 전부 commit 해야 하는건 아니다. 파일들중 commit 하지 말아야 하는 파일들도 있다. 예를 들어, vim을 사용해서 개발을 하면 vim이 백업 파일을 자동을 만든다. 이러한 파일은 끝이 .un~ 로 끝난다. Dot file 이기 때문에 ls에 나오지는 않지만 git status 에는 나오고 git add 에도 걸린다. 그럼으로 이러한 파일들은 git이 자동으로 skip하도록 설정 하는것이 좋다. 이러한 설정은 .gitignore 파일을 만들어서 관리한다. 앞서 말한 vim의 백업 파일을 git이 무시하도록 할려면 .gitignore 파일에 다음과 같은 라인을 추가하면 된다.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;*.*un~&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;local(개발자의 컴퓨터) — github(중앙서버)&lt;/strong&gt;
+로컬에서의 commit은 공유가 불가능하다. push를 하면 github을 통해서 다른 사람들이 볼 수 있고, pull을 이용해서 각자의 로컬에 받아볼 수 있다.
+&lt;em&gt;merge conflict는 내가 개발하던 branch를 push할 때, 여태까지의 master의 진행 상황을 pull 해야 하는데 그때 발생할 수 있다. merge conflict를 피할 수는 없지만, 그것을 해결하는 과정에서 신중을 기해야 후에 어려움을 피할 수 있다.&lt;/em&gt;&lt;/p&gt;
+&lt;h1 id=&quot;git-branch-merge-후에는-해당-branch는-반드시-삭제-그리고-로컬의-master-branch에서-pull해야-한다-반드시--master-branch&quot;&gt;&lt;a href=&quot;#git-branch-merge-%ED%9B%84%EC%97%90%EB%8A%94-%ED%95%B4%EB%8B%B9-branch%EB%8A%94-%EB%B0%98%EB%93%9C%EC%8B%9C-%EC%82%AD%EC%A0%9C-%EA%B7%B8%EB%A6%AC%EA%B3%A0-%EB%A1%9C%EC%BB%AC%EC%9D%98-master-branch%EC%97%90%EC%84%9C-pull%ED%95%B4%EC%95%BC-%ED%95%9C%EB%8B%A4-%EB%B0%98%EB%93%9C%EC%8B%9C--master-branch&quot; aria-label=&quot;git branch merge 후에는 해당 branch는 반드시 삭제 그리고 로컬의 master branch에서 pull해야 한다 반드시  master branch permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;git branch merge 후에는 해당 branch는 반드시 삭제, 그리고 로컬의 &lt;strong&gt;master branch&lt;/strong&gt;에서 pull해야 한다. 반드시 ## master branch&lt;/h1&gt;
+&lt;h2 id=&quot;fetch&quot;&gt;&lt;a href=&quot;#fetch&quot; aria-label=&quot;fetch permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;fetch&lt;/strong&gt;&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; loading &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;http://localhost:8000/[targetname]&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; itemToJSON &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; loading&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; tweetItems&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetchData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; dataSet &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;getData&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; resultData &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; dataSet&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+
+tweetBtn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;click&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;let&lt;/span&gt; data &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; tweetData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;data &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; rawResponse &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fetch&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;http://localhost:8000/tweets&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        method&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;POST&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        headers&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;token string&quot;&gt;&apos;Accept&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;application/json&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;token string&quot;&gt;&apos;Content-Type&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;application/json&apos;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        body&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;JSON&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;stringify&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;name&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;ulfrid&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;contents&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; data&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; content &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; rawResponse&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;json&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+    tweetData&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;alert&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;내용을 입력해주세요!&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;react에서 router를 쓸 때, withRouter로 감싸줘야 하는 것은 router를 발동시키는 해당 component이다. 단순히 page에 import하는 것이 아다.&lt;/em&gt;
+&lt;em&gt;react native에서 App.js에 `&lt;code class=&quot;language-text&quot;&gt;&lt;/code&gt;console.disableYellowBox = true를 하면 React Native에서 보내는 노란색 경고창이 보이지 않게 할 수 있다.&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Westagram React Native Navigation]]></title><description><![CDATA[React Native Navigation]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native02/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native02/</guid><pubDate>Wed, 23 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;p&gt;모바일 앱은 대부분 여러 개의 스크린으로 이루어져 있다. 다수의 스크린을 다룰 때는 navigator를 사용하면 된다. 네비게이터를 만들기 위해서는 다양한 Navigation component를 사용할 수 있지만, navigation을 처음 사용하는 입장에서는 React Navigation을 사용하는 것이 좋다. React Navigation은 iOS와 Android에서 모두 사용가능하며 stack navigation과 tabbed navigation을 제공한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;npm install &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;save react&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;navigation
+npm install &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;save react&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;native&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;gesture&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;handler
+npm install &lt;span class=&quot;token operator&quot;&gt;--&lt;/span&gt;save react&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;navigation&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;stack&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위 명령어로 react navigation을 설치할 수 있다. 하지만 expo tab으로 작업할 경우, 자동적으로 설치가 된다.&lt;/p&gt;
+&lt;p&gt;createStackNavigator는 stack이 되는 component를 return한다.
+createAppcontainer는 stack인 component를 인자로 받는다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; AppNavigator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStackNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  Home&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; HomeScreen
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같은 방식으로 작성하면 되는데 주의할 점은&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createAppContainer &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-navigation&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; createStackNavigator &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-navigation-stack&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; Main &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./Main&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; MainNavigator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStackNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Home&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Main &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    Sample&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Sample &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    initialRouteName&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Home&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; Index &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createAppContainer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;MainNavigator&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; Index&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;반드시 위와 같은 방식으로 import를 해줘야 한다는 것이다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;Home: { screen: Main },&lt;/code&gt; 에서 Home은 stack의 이름이라고 생각하면 된다. 저 이름을 사용해서 stack을 이동할 수 있다.&lt;br&gt;
+밑에 screen을 추가할 수 있다. screen으로 넘어가려면 아래와 같이 작성하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// Sample.js&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;View style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; flex&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; alignItems&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;center&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; justifyContent&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;center&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Button
+    onPress&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigation&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;navigate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Home&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    title&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Home&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;View&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같이 &lt;code class=&quot;language-text&quot;&gt;this.props.navigation.navigate(name)&lt;/code&gt;를 쓰면 해당 name이 있는 screen의 stack이 덮어 쓰게 된다. 자동으로 뒤로 가기 버튼이 생성되고 아이폰의 경우 화면의 끝을 슬라이드하면 뒤로 갈 수 있다.&lt;br&gt;
+이제 여러 screen을 Appcontainer에 적용시켰다면 실제로 이동하도록 만들어주면 된다. 어떠한 button을 눌렀을 때 이동하게 하려면 아래처럼 하면 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token function-variable function&quot;&gt;goToSample&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; navigate &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigation&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token function&quot;&gt;navigate&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;Sample&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+  &lt;span class=&quot;token function&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; userInfo &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; userImage&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; user&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; userName &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; styles&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; goToSample &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;TouchableOpacity onPress&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;goToSample&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;View style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;user&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Image source&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;userInfo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;img&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;userImage&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+          &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;Text style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;userName&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;userInfo&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;userId&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;Text&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;View&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+      &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;TouchableOpacity&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;여기서 가장 중요한 것은 &lt;code class=&quot;language-text&quot;&gt;this.props.navigation.navigate&lt;/code&gt;이다.&lt;br&gt;
+만약 이 코드만 작성할 경우, &lt;code class=&quot;language-text&quot;&gt;this.props.navigation&lt;/code&gt;이 undefined로 나오게 된다.&lt;/p&gt;
+&lt;p&gt;React에서 Router를 할 때도 잘 생각해보면 넘어가고자하는 Route를 설정하는 component에는 반드시 withRouter를 import하고 HOC해주어야 했다.&lt;/p&gt;
+&lt;p&gt;React Native에서는 그 작업이 없는 대신 screen을 지정해 놓은 component에서 &lt;code class=&quot;language-text&quot;&gt;navigation={this.props.navigation}&lt;/code&gt;을 해당 component까지 이어주어야 한다.&lt;/p&gt;
+&lt;p&gt;다시 말해, screen component에서 해당 component까지의 사이에 있는 모든 부모 comonent에 &lt;code class=&quot;language-text&quot;&gt;navigation={this.props.navigation}&lt;/code&gt;를 작성해주어야 한다.&lt;/p&gt;
+&lt;p&gt;expo tab으로 어플리케이션을 시작하게 되면, Navigation에 대한 구조가 비교적 잘 나와 있다. 먼저 Navigation 폴더에는 navigation 구조를 담은 파일을 담아야 한다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; MainStack &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStackNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Main&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Main &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    Profile&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Profile &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    initialRouteName&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Main&quot;&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+MainStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;navigationOptions &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  tabBarLabel&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Main&quot;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+MainStack&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; ProfileStack &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createStackNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  Profile&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; screen&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; Profile &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; tabNavigator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createBottomTabNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+  MainStack&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  ProfileStack
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+tabNavigator&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;path &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; tabNavigator&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위와 같이 각각의 screen을 stack으로 만들고, 어떤 구조로 stack을 쌓을 것인지를 설정해준다. 그리고 &lt;code class=&quot;language-text&quot;&gt;createBottomTabNavigator()&lt;/code&gt;를 사용하면 화면의 하단에 위치할 navigation을 만들 수 있다. 위의 경우에는 메인 페이지와 프로필 페이지로 이동할 수 있는 네비게이터를 만들었다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;createAppContainer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+  &lt;span class=&quot;token function&quot;&gt;createSwitchNavigator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    Main&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; MainTabNavigator
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;createAppContainer()&lt;/code&gt;를 사용하면 여러개의 stack을 담은 App을 만들 수 있다. 그리고 &lt;code class=&quot;language-text&quot;&gt;createSwitchNavigator()&lt;/code&gt;를 사용하면 말 그대로 switch하면서 이동할 수 있는 navigator를 만들 수 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL 191023]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191023/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191023/</guid><pubDate>Tue, 22 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;http-request의-구조&quot;&gt;&lt;a href=&quot;#http-request%EC%9D%98-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;http request의 구조 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;http request의 구조&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;header&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;startline / target / httpversion&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Headers
+해당 request에 대한 추가 정보(addtional information)를 담고 있는 부분.&lt;br&gt;
+예를 들어, request 메세지 body의 총 길이 (Content-Length) 등.&lt;br&gt;
+Key:Value 값으로 되어있다 (key:value)&lt;br&gt;
+HOST: google.com =&gt; &lt;strong&gt;Key = HOST&lt;/strong&gt;, &lt;strong&gt;Value = google.com&lt;/strong&gt;&lt;br&gt;
+Headers도 크게 3부분으로 나뉘지만&lt;br&gt;
+&lt;strong&gt;general headers,&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;request headers,&lt;/strong&gt;&lt;br&gt;
+&lt;strong&gt;entity headers&lt;/strong&gt;
+너무 자세한 부분임으로, 3부분으로 구성되어 있다는것만 알고 있어도 괜찮다.&lt;/p&gt;
+&lt;p&gt;자주 사용되는 header 정보에는 다음이 있다:&lt;br&gt;
+&lt;strong&gt;Host&lt;/strong&gt;&lt;br&gt;
+요청이 전송되는 target의 host url: 예를 들어, google.com&lt;br&gt;
+&lt;strong&gt;User-Agent&lt;/strong&gt;&lt;br&gt;
+요청을 보내는 클라이언트의 대한 정보: 예를 들어, 웹브라우저에 대한 정보.&lt;br&gt;
+&lt;strong&gt;Accept&lt;/strong&gt;&lt;br&gt;
+해당 요청이 받을 수 있는 응답(response) 타입.&lt;br&gt;
+&lt;strong&gt;Connection&lt;/strong&gt;&lt;br&gt;
+해당 요청이 끝난후에 클라이언트와 서버가 계속해서 네트워크 컨넥션을 유지 할것인지 아니면 끊을것인지에 대해 지시하는 부분.&lt;br&gt;
+&lt;strong&gt;Content-Type&lt;/strong&gt;&lt;br&gt;
+해당 요청이 보내는 메세지 body의 타입. 예를 들어, JSON을 보내면 application/json.&lt;br&gt;
+&lt;strong&gt;Content-Length:&lt;/strong&gt;&lt;br&gt;
+메세지 body의 길이.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;body&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;원격으로 호출하기 위해 만드는 것이 api, 서버이다. 원격으로 호출하려고 서버를 찾아야하는데, 그때 주소가 필요하다. ip주소는 기억하기 힘들기 때문에 도메인 주소를 사용한다. 하지만 실제로는 도메인 주소도 ip주소로 변환되어 보내진다.&lt;/p&gt;
+&lt;p&gt;google.com이라는 주소를 입력했다고 가정하면, 그것만으로는 충분하지 않다. 실질적인 주소를 알아야하기 때문에, Request Target이 필요하다.&lt;br&gt;
+여기서 원격으로 호출되는 것, 그것을 EndPoint라고 한다. End는 호스트를 말하고, point는 그것에 있는 접점 중 하나를 이야기한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;http response의 구조&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status Line&lt;/strong&gt;
+Response의 상태를 간략하게 나타내주는 부분.
+3부분으로 구성되어 있다.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;HTTP 버젼&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status code&lt;/strong&gt;: 응답 상태를 나타내는 코드. 숫자로 되어 있는 코드.
+예를 들어, 200&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Status text&lt;/strong&gt;: 응답 상태를 간략하게 설명해주는 부분.
+예를 들어, “Not Found”
+&lt;code class=&quot;language-text&quot;&gt;HTTP/1.1 404 Not Found&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Headers&lt;/strong&gt;
+Response의 headers와 동일하다.
+다만 response에서만 사용되는 header 값들이 있다.
+예를 들어, User-Agent 대신에 Server 헤더가 사용된다.
+&lt;strong&gt;Body&lt;/strong&gt;
+Response의 body와 일반적으로 동일하다.
+Request와 마찬가지로 모든 response가 body가 있지는 않다. 데이터를 전송할 필요가 없을경우 body가 비어있게 된다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;http/1.1404 not found&quot;&gt;&lt;pre class=&quot;language-http/1.1404 not found&quot;&gt;&lt;code class=&quot;language-http/1.1404 not found&quot;&gt;Connection: close
+Content-Length: 1573
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Aug 2018 07:59:05 GMT&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=en&amp;gt;
+  &amp;lt;meta charset=utf-8&amp;gt;
+  &amp;lt;meta name=viewport content=&amp;quot;initial-scale=1, minimum-scale=1, width=device-width&amp;quot;&amp;gt;
+  &amp;lt;title&amp;gt;Error 404 (Not Found)!!1&amp;lt;/title&amp;gt;
+  &amp;lt;style&amp;gt;
+    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* &amp;gt; body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}
+  &amp;lt;/style&amp;gt;
+  &amp;lt;a href=//www.google.com/&amp;gt;&amp;lt;span id=logo aria-label=Google&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;
+  &amp;lt;p&amp;gt;&amp;lt;b&amp;gt;404.&amp;lt;/b&amp;gt; &amp;lt;ins&amp;gt;That’s an error.&amp;lt;/ins&amp;gt;
+  &amp;lt;p&amp;gt;The requested URL &amp;lt;code&amp;gt;/payment-sync&amp;lt;/code&amp;gt; was not found on this server.  &amp;lt;ins&amp;gt;That’s all we know.&amp;lt;/ins&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;자주-쓰이는-http-status-code&quot;&gt;&lt;a href=&quot;#%EC%9E%90%EC%A3%BC-%EC%93%B0%EC%9D%B4%EB%8A%94-http-status-code&quot; aria-label=&quot;자주 쓰이는 http status code permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;자주 쓰이는 HTTP Status Code&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;200 OK&lt;/strong&gt;&lt;br&gt;
+가장 자주 보게되는 status code.&lt;br&gt;
+문제없이 다 잘 실행 되었을때 보내는 코드.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;301 Moved Permanently&lt;/strong&gt;&lt;br&gt;
+해당 URI가 다른 주소로 바뀌었을때 보내는 코드.&lt;br&gt;
+HTTP/1.1 301 Moved Permanently&lt;br&gt;
+Location: &lt;a href=&quot;http://www.example.org/index.asp&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot;&gt;http://www.example.org/index.asp&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;400 Bad Request&lt;/strong&gt;&lt;br&gt;
+해당 요청이 잘못된 요청일대 보내는 코드.&lt;br&gt;
+주로 요청에 포함된 input 값들이 잘못된 값들이 보내졌을때 사용되는 코드.&lt;br&gt;
+예를 들어, 전화번호를 보내야 되는데 text가 보내졌을때 등등.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;401 Unauthorized&lt;/strong&gt;&lt;br&gt;
+유저가 해당 요청을 진행 할려면 먼저 로그인을 하거나 회원 가입을 하거나 등등이 필요하다는것을 나타내려 할때 쓰이는 코드.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;403 Forbidden&lt;/strong&gt;&lt;br&gt;
+유저가 해당 요청에 대한 권한이 없다는 뜻.&lt;br&gt;
+예를 들어, 오직 과금을 한 유저만 볼 수 있는 데이터를 요청 했을때 등.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;404 Not Found&lt;/strong&gt;&lt;br&gt;
+요청된 uri가 존재 하지 않는다는 뜻.&lt;br&gt;
+http -v google.com/no-such-uri&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;GET /no-such-uri HTTP/1.1
+Accept: */*
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+Host: google.com
+User-Agent: HTTPie/0.9.3
+
+HTTP/1.1 404 Not Found
+Content-Length: 1572
+Content-Type: text/html; charset=UTF-8
+Date: Mon, 20 Aug 2018 08:46:48 GMT
+Referrer-Policy: no-referrer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;500 Internal Server Error&lt;/strong&gt;&lt;br&gt;
+서버에서 에러가 났을때 사용되는 코드.&lt;br&gt;
+API 개발을 하는 백앤드 개발자들이 싫어하는 코드.&lt;/p&gt;
+&lt;p&gt;restful api 란, target주소를 작성할 때의 기준이다. 예를 들어,&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;GET /user/1(특정 유저 정보 받기)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;POST /user(특정 유저 등록)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;GET /users(모든 유저 정보 받기)&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;DELETE /user/1(특정 유저 삭제)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;request는 무조건 method로 한다.&lt;br&gt;
+동사는 쓰지 않는다.&lt;/p&gt;
+&lt;p&gt;url schema protocol host port tartget option&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TIL 191022]]></title><description><![CDATA[What I learned today]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/til_191022/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/til_191022/</guid><pubDate>Mon, 21 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;react-native&quot;&gt;&lt;a href=&quot;#react-native&quot; aria-label=&quot;react native permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;em&gt;React Native&lt;/em&gt;&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;React Native에서는 li처럼 반복되는 element를 생성하기 위해, map 함수 대신 flatlist라는 태그를 사용할 수 있다.\&lt;/p&gt;
@@ -185,7 +928,10 @@ constructor 안에서 this.props에 접근하고 싶을 때는 super(props)를 �
       goToMain&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
       updateInputVal
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Westagram React-02]]></title><description><![CDATA[What I learned from Instagram-React Clone Coding]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_02/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_02/</guid><pubDate>Thu, 17 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;westagram-react&quot;&gt;&lt;a href=&quot;#westagram-react&quot; aria-label=&quot;westagram react permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Westagram React&lt;/strong&gt;&lt;/h2&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Westagram React Native]]></title><description><![CDATA[Glimpse of React Native]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native01/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native01/</guid><pubDate>Thu, 17 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;react-native&quot;&gt;&lt;a href=&quot;#react-native&quot; aria-label=&quot;react native permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;React Native&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;expo init {project name}&lt;/code&gt;를 사용해서 쉽게 project를 시작할 수 있다. react-create-app과 거의 같은 기능을 한다고 볼 수 있다. expo가 편리한 점은 실제 휴대전화 앱으로 다운 받아 같은 로컬에서 현재 내가 작업하고 있는 프로젝트를 실시간으로 확인할 수 있다는 점이다. 또 한가지는 hot render를 통해 내가 변화시킨 부분만 매우 빠르게 확인할 수 있다는 점이다. 마치 web에서 localhost를 통해 바로 바로 확인하며 작업하는 것과 같은 효과를 낼 수 있다.&lt;/p&gt;
+&lt;p&gt;expo로 시작할 때, template의 기본 설정을 선택할 수 있다. expo를 사용하는 경우의 대부분, blank로 시작한다. 하지만 처음에는 너무 어렵기 때문에 tab으로 시작했다.&lt;br&gt;
+tab을 선택하게되면 기본적으로 주어지는 template들이 많이 있다. 가장 먼저 눈으로 볼 수 있는 것은 Homescreen이다. westagram 중에서 1개의 페이지만 만들기로 했으므로, Homescreen에 기본적인 틀을 잡아 작업하기 시작했다. reaact native는 별도의 css 대신 styles라는 변수를 활용한다. 객체 형태를 이용해 일종의 props처럼 받아서 쓸 수가 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Westagram React-02]]></title><description><![CDATA[What I learned from Instagram-React Clone Coding]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_02/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_02/</guid><pubDate>Thu, 17 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;westagram-react&quot;&gt;&lt;a href=&quot;#westagram-react&quot; aria-label=&quot;westagram react permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Westagram React&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&quot;keys&quot;&gt;&lt;a href=&quot;#keys&quot; aria-label=&quot;keys permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Keys&lt;/h4&gt;
 &lt;p&gt;React로 li태그를 사용할 때 key를 사용하도록 권장한다. 어떠한 변화에도 반응하지 않는 일종의 고유한 id 값이 필요한 셈이다.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;itemList&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token parameter&quot;&gt;item&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; index&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -219,10 +965,7 @@ console&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span cl
 &lt;p&gt;&lt;em&gt;2. component 단위에서 state로 상태 및 데이터를 관리하고 업데이트할 수 있어 효율적인 유지, 보수가 가능하다. 하지만 주의해야하는 것은 this.setState()를 이용해 state를 변경하고, 그 변경된 값을 이용해 어떠한 작업을 하기 원하는 경우, 반드시 call-back 함수를 이용해야 한다. 왜냐하면 javascript는 비동기로 작동하기 때문에 this.setState() 바로 다음에 있는 함수에 state가 변경된 이후의 값이 반영되지 않기 떼문이다.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;3. Package Manager 개발할 때 필요한 Library를 관리해주는 프로그램이다. 원래는 Node-Package-Manager만 존재했다. 그러나 속도가 느리고, 보안에 취약하다는 이슈가 부각되면서 yarn이 등장했다. yarn과 npm이 저장하는 곳은 동일하다.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;4. input에 카드 번호와 같은 것을 넣을 때, form 태그에 타입 card 를 사용해서 크롬에서 지원하는 기능을 사용한다.&lt;/em&gt;&lt;br&gt;
-&lt;em&gt;유용한 단축키: install =&gt; i save =&gt; -s&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Westagram React Native]]></title><description><![CDATA[Glimpse of React Native]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native01/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_native01/</guid><pubDate>Thu, 17 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;react-native&quot;&gt;&lt;a href=&quot;#react-native&quot; aria-label=&quot;react native permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;React Native&lt;/strong&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;expo init {project name}&lt;/code&gt;를 사용해서 쉽게 project를 시작할 수 있다. react-create-app과 거의 같은 기능을 한다고 볼 수 있다. expo가 편리한 점은 실제 휴대전화 앱으로 다운 받아 같은 로컬에서 현재 내가 작업하고 있는 프로젝트를 실시간으로 확인할 수 있다는 점이다. 또 한가지는 hot render를 통해 내가 변화시킨 부분만 매우 빠르게 확인할 수 있다는 점이다. 마치 web에서 localhost를 통해 바로 바로 확인하며 작업하는 것과 같은 효과를 낼 수 있다.&lt;/p&gt;
-&lt;p&gt;expo로 시작할 때, template의 기본 설정을 선택할 수 있다. expo를 사용하는 경우의 대부분, blank로 시작한다. 하지만 처음에는 너무 어렵기 때문에 tab으로 시작했다.&lt;br&gt;
-tab을 선택하게되면 기본적으로 주어지는 template들이 많이 있다. 가장 먼저 눈으로 볼 수 있는 것은 Homescreen이다. westagram 중에서 1개의 페이지만 만들기로 했으므로, Homescreen에 기본적인 틀을 잡아 작업하기 시작했다. reaact native는 별도의 css 대신 styles라는 변수를 활용한다. 객체 형태를 이용해 일종의 props처럼 받아서 쓸 수가 있다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Westagram React-01]]></title><description><![CDATA[A First Step to React]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_01/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_01/</guid><pubDate>Mon, 14 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;basics-of-react&quot;&gt;&lt;a href=&quot;#basics-of-react&quot; aria-label=&quot;basics of react permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Basics of React&lt;/strong&gt;&lt;/h2&gt;
+&lt;em&gt;유용한 단축키: install =&gt; i save =&gt; -s&lt;/em&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Westagram React-01]]></title><description><![CDATA[A First Step to React]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram_react_01/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram_react_01/</guid><pubDate>Mon, 14 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;basics-of-react&quot;&gt;&lt;a href=&quot;#basics-of-react&quot; aria-label=&quot;basics of react permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Basics of React&lt;/strong&gt;&lt;/h2&gt;
 &lt;h4 id=&quot;react란&quot;&gt;&lt;a href=&quot;#react%EB%9E%80&quot; aria-label=&quot;react란 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;React란?&lt;/strong&gt;&lt;/h4&gt;
 &lt;p&gt;React는 Javascript의 라이브러리이다. 2세대 개발 process에서 3세대로 넘어오는 과정에서 가장 큰 특징이라고 한다면, SPA(Single Page Application)일 것이다. Single-Page Application, SPA, 스파는 서버로부터 완전한 새로운 페이지를 불러오지 않고 현재의 페이지를 동적으로 다시 작성함으로써 사용자와 소통하는 웹 애플리케이션이나 웹사이트를 말한다. HTML, 자바스크립트, CSS 등 필요한 모든 코드는 하나의 페이지로 불러오거나,적절한 자원들을 동적으로 불러들여서 필요하면 문서에 추가하는데, 보통 사용자의 동작에 응답하게 되는 방식이다. 문서는 프로세스 중 어떠한 지점에서도 다시 불러들이지 않으며 다른 문서로 제어권을 넘기지 않으나, 위치 해시나 HTML5 히스토리 API를 사용하여 애플리케이션 안에서 개개의 논리 문서의 인식 및 탐색을 제공한다.&lt;br&gt;
 React는 SPA를 활용하기에 굉장히 적합한 라이브러리로써, 상호작용이 많은 UI를 만들 때 생기는 어려움을 줄여준다. 그리고 애플리케이션의 각 상태에 대한 간단한 뷰만 설계하여 데이터가 변경됨에 따라 적절한 컴포넌트만 효율적으로 갱신하고 렌더링되도록 한다.&lt;/p&gt;
@@ -458,54 +1201,7 @@ Relative path는 툭정한 파일, 폴더로 가는 상대적인 위치를 말�
 &lt;p&gt;일반적으로 파이썬에서 exception이 발생하면 다음 코드들이 실행되지 않고 프로그램이 종료된다. 하지만 exception을 지정해준다면 해당 프로세스가 종료되지 않고, 지정해준 로직을 실행하도록 할 수 있다.&lt;br&gt;
 (finally는 exception의 발생 여부와 상관없이 무조건 실행된다.)&lt;/p&gt;
 &lt;p&gt;에러는 SyntaxError, ZeroDivisionError, NameError, TypeError 등이 있다. 이런 특정 에러를 catch해서 사용할 수 있고, as 키워드를 사용해서 exception의 객체를 받아서 정보를 더 얻을 수 있다.&lt;/p&gt;
-&lt;p&gt;try 문에도 else가 있는데, else는 exception이 발생하지 않았을 때 실행된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git commands]]></title><description><![CDATA[Basic Commands of terminal for git]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/git_commands/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/git_commands/</guid><pubDate>Thu, 03 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;--githubio-블로그-만들며서-썻던-git-commands-정리--&quot;&gt;&lt;a href=&quot;#--githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EB%A9%B0%EC%84%9C-%EC%8D%BB%EB%8D%98-git-commands-%EC%A0%95%EB%A6%AC--&quot; aria-label=&quot;  githubio 블로그 만들며서 썻던 git commands 정리   permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;- github.io 블로그 만들며서 썻던 git commands 정리 -&lt;/strong&gt;&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;기본적인 터미널 단축키&lt;/strong&gt;&lt;br&gt;
-cd: change directory 디렉토리로 이동할 수 있다.&lt;br&gt;
-ls: listing directory 디렉토리에 있는 콘텐츠를 확인할 수 있다.&lt;br&gt;
-open: file을 열 수 있다.&lt;br&gt;
-mv: move file을 이동시킬 수 있다&lt;br&gt;
-mkdir: make directory 새로운 디렉토리를 만들 수 있다.&lt;br&gt;
-rmdir: 디렉토리를 제거할 수 있다 .&lt;br&gt;
-rm -R: 현재 경로 안에 있는 디렉토리를 제거한다.&lt;br&gt;
-sudo: 관리자로서 접근하여 명령할 수 있다. 매우 신중히 사용할 것.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;우선 Gatsby를 사용할 수 있도록 전역에 설치&lt;/strong&gt;&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;&lt;br&gt;
-npm은 node.js package manager의 약자로 자바스크립트 언어를 위한 패키지 관리자이다. node를 다운받으면 같이 받을 수 있다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gatsby의 theme 중 원하는 것의 source code를 가져온다.&lt;/strong&gt;
-&lt;code class=&quot;language-text&quot;&gt;gatsby new blog https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;br&gt;
-추가적으로 facebook이 만든 yarn을 설치했다.&lt;br&gt;
-yarn은 npm과 같은 자바스크립트 언어를 위한 패키지 관리자이다. npm의 취약한 저장소, 보안의 대안으로 나타났으며 npm보다 속도가 빠르다고 한다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;블로그 설치 완료 후 localhost에서 확인&lt;/strong&gt;&lt;br&gt;
-yarn develop 혹은 npm run develop으로 localhost:8000에서 확인 가능하다.&lt;br&gt;
-추가적으로 서버를 멈추고 싶다면 terminal 창을 끄거나 ctrl-c를 누르면 서버가 닫힌다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;github에 repository를 만든다.&lt;/strong&gt;&lt;br&gt;
-github에서 repository를 만든다. 여기서 주의할 점은 github 사용자 아이디와 같은 이름으로 naming해야 한다는 것이다. 그리고 사용자 이름 뒤에 github.io를 붙인다.&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;username.github.io&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Source Code와 Repository를 연결한다. 설치한 blog파일에서 git을 시작한다.&lt;/strong&gt;&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt; Repository의 주소와 연결한다.&lt;br&gt;
-&lt;code class=&quot;language-text&quot;&gt;git remote add origin repository-url&lt;/code&gt;&lt;br&gt;
-git add와 git commit을 통해 내용을 추가, 수정한 뒤 repository에 저장 가능하다.&lt;br&gt;
-git add는 commit하기 전 추가할 사항들을 정하는 명령어로 add -p로 세부적인 사항을 하나하나 검토할 수도 있고, add . 으로 일괄적으로 추가할 수도 있다.&lt;br&gt;
-git commit은 현재 branch로 push하기 전, 그러니까 저장소로 업로드하기 전에 메시지와 함께 작업 내역을 마지막으로 정리할 수 있는 명령어이다. commit -m으로 메시지를 남길 수 있고, commit -v를 이용하면 세부적인 변경사항을 확인할 수 있다.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;push와 deploy&lt;/strong&gt;&lt;br&gt;
-branch는 보통 배포용인 master 외에 추가적으로 만들어 관리한다. 블로그이기 때문에 추가적인 branch 한 개를 더 만들어 내용을 업로드한다. 그러나 그 상태로는 아무리 push를 해도 배포에는 반영이 되지 않기 때문에, 자동으로 수행할 수 있는 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;yarn run clean &amp;amp;&amp;amp; gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&lt;/code&gt; 명령어를 실행한다.&lt;br&gt;
-이후 배포할 때는 &lt;code class=&quot;language-text&quot;&gt;yarn deploy&lt;/code&gt;를 명령어를 사용하면, 알아서 build, master에 push 그리고 deploy도 실행된다.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;​&lt;/p&gt;
-&lt;h5 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; aria-label=&quot;git commands permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Git Commands&lt;/strong&gt;&lt;/h5&gt;
-&lt;ul&gt;
-&lt;li&gt;git init: local에 새로운 repository를 만든다.&lt;/li&gt;
-&lt;li&gt;git clone: local에 repository를 복사한다.&lt;/li&gt;
-&lt;li&gt;git add: 상태에 1개 혹은 그 이상의 파일을 추가한다.&lt;/li&gt;
-&lt;li&gt;git commit: 상태를 commit한다. repository에 접근하기 바로 전 단계&lt;/li&gt;
-&lt;li&gt;git push { branch }: branch에 commit한 사항을 업로드 한다.&lt;/li&gt;
-&lt;li&gt;git status: 현재의 상태&lt;/li&gt;
-&lt;li&gt;git remote add origin: local에 있는 repository를 서버에 연결할 때 사용한다.&lt;/li&gt;
-&lt;li&gt;git checkout: 해당 repository의 branch 리스트를 보여준다.&lt;/li&gt;
-&lt;li&gt;git checkout { branchname }: 해당 branch로 이동한다.&lt;/li&gt;
-&lt;li&gt;git log: commit한 기록들을 보여준다.&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Enemy Rain]]></title><description><![CDATA[What I Learnded From Making Vanila Javascript Game]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/enemy_rain</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/enemy_rain</guid><pubDate>Thu, 03 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;개요&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%9A%94&quot; aria-label=&quot;개요 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;개요&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;try 문에도 else가 있는데, else는 exception이 발생하지 않았을 때 실행된다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Enemy Rain]]></title><description><![CDATA[What I Learnded From Making Vanila Javascript Game]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/enemy_rain</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/enemy_rain</guid><pubDate>Thu, 03 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;개요&quot;&gt;&lt;a href=&quot;#%EA%B0%9C%EC%9A%94&quot; aria-label=&quot;개요 permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;개요&lt;/strong&gt;&lt;/h4&gt;
 &lt;ol&gt;
 &lt;li&gt;배경화면을 띄운다.&lt;/li&gt;
 &lt;li&gt;주인공이 배경 맨 아래에 위치하며 오른쪽, 왼쪽으로 이동할 수 있다.&lt;/li&gt;
@@ -556,7 +1252,54 @@ keyUp, keyDown event를 사용해 키보드 좌, 우 키를 눌렀을 때 주인
   &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;귀신과 부딫혔을 때를 계산하는 것이 제일 번거로웠는데, x축과 길이, y축과 높이를 계산하여 부딫혔을 때를 알 수 있다.&lt;/p&gt;
-&lt;p&gt;가장 찝찝한 부분은 귀신과 주인공이 부딫히고 나서, 귀신이 죽은 이미지로 바뀐 후, 사라지는 과정이다. setInterval로 실행하는 전체 실행 함수인 init에 같이 넣게되면 이미지가 바뀜과 동시에 사라지는 문제가 생긴다. 그렇다고 따로 setInterval을 정하게 되면 순전히 타이밍에 따라서 2초를 꽉 채운 후, 사라지는 경우가 있고, 2초를 채우지 못하고 사라질 때도 있다. 분명 다른 방법이 있을 것 같다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Westagram]]></title><description><![CDATA[What I learned From Instagram Clone Coding]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram/</guid><pubDate>Thu, 03 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;1-login-page&quot;&gt;&lt;a href=&quot;#1-login-page&quot; aria-label=&quot;1 login page permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;1. LogIn Page&lt;/strong&gt;&lt;/h4&gt;
+&lt;p&gt;가장 찝찝한 부분은 귀신과 주인공이 부딫히고 나서, 귀신이 죽은 이미지로 바뀐 후, 사라지는 과정이다. setInterval로 실행하는 전체 실행 함수인 init에 같이 넣게되면 이미지가 바뀜과 동시에 사라지는 문제가 생긴다. 그렇다고 따로 setInterval을 정하게 되면 순전히 타이밍에 따라서 2초를 꽉 채운 후, 사라지는 경우가 있고, 2초를 채우지 못하고 사라질 때도 있다. 분명 다른 방법이 있을 것 같다.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Git commands]]></title><description><![CDATA[Basic Commands of terminal for git]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/git_commands/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/git_commands/</guid><pubDate>Thu, 03 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;--githubio-블로그-만들며서-썻던-git-commands-정리--&quot;&gt;&lt;a href=&quot;#--githubio-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EB%A9%B0%EC%84%9C-%EC%8D%BB%EB%8D%98-git-commands-%EC%A0%95%EB%A6%AC--&quot; aria-label=&quot;  githubio 블로그 만들며서 썻던 git commands 정리   permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;- github.io 블로그 만들며서 썻던 git commands 정리 -&lt;/strong&gt;&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;기본적인 터미널 단축키&lt;/strong&gt;&lt;br&gt;
+cd: change directory 디렉토리로 이동할 수 있다.&lt;br&gt;
+ls: listing directory 디렉토리에 있는 콘텐츠를 확인할 수 있다.&lt;br&gt;
+open: file을 열 수 있다.&lt;br&gt;
+mv: move file을 이동시킬 수 있다&lt;br&gt;
+mkdir: make directory 새로운 디렉토리를 만들 수 있다.&lt;br&gt;
+rmdir: 디렉토리를 제거할 수 있다 .&lt;br&gt;
+rm -R: 현재 경로 안에 있는 디렉토리를 제거한다.&lt;br&gt;
+sudo: 관리자로서 접근하여 명령할 수 있다. 매우 신중히 사용할 것.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;우선 Gatsby를 사용할 수 있도록 전역에 설치&lt;/strong&gt;&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;npm install -g gatsby-cli&lt;/code&gt;&lt;br&gt;
+npm은 node.js package manager의 약자로 자바스크립트 언어를 위한 패키지 관리자이다. node를 다운받으면 같이 받을 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Gatsby의 theme 중 원하는 것의 source code를 가져온다.&lt;/strong&gt;
+&lt;code class=&quot;language-text&quot;&gt;gatsby new blog https://github.com/alxshelepenok/gatsby-starter-lumen&lt;/code&gt;&lt;br&gt;
+추가적으로 facebook이 만든 yarn을 설치했다.&lt;br&gt;
+yarn은 npm과 같은 자바스크립트 언어를 위한 패키지 관리자이다. npm의 취약한 저장소, 보안의 대안으로 나타났으며 npm보다 속도가 빠르다고 한다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;블로그 설치 완료 후 localhost에서 확인&lt;/strong&gt;&lt;br&gt;
+yarn develop 혹은 npm run develop으로 localhost:8000에서 확인 가능하다.&lt;br&gt;
+추가적으로 서버를 멈추고 싶다면 terminal 창을 끄거나 ctrl-c를 누르면 서버가 닫힌다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;github에 repository를 만든다.&lt;/strong&gt;&lt;br&gt;
+github에서 repository를 만든다. 여기서 주의할 점은 github 사용자 아이디와 같은 이름으로 naming해야 한다는 것이다. 그리고 사용자 이름 뒤에 github.io를 붙인다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;username.github.io&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Source Code와 Repository를 연결한다. 설치한 blog파일에서 git을 시작한다.&lt;/strong&gt;&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;git init&lt;/code&gt; Repository의 주소와 연결한다.&lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;git remote add origin repository-url&lt;/code&gt;&lt;br&gt;
+git add와 git commit을 통해 내용을 추가, 수정한 뒤 repository에 저장 가능하다.&lt;br&gt;
+git add는 commit하기 전 추가할 사항들을 정하는 명령어로 add -p로 세부적인 사항을 하나하나 검토할 수도 있고, add . 으로 일괄적으로 추가할 수도 있다.&lt;br&gt;
+git commit은 현재 branch로 push하기 전, 그러니까 저장소로 업로드하기 전에 메시지와 함께 작업 내역을 마지막으로 정리할 수 있는 명령어이다. commit -m으로 메시지를 남길 수 있고, commit -v를 이용하면 세부적인 변경사항을 확인할 수 있다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;push와 deploy&lt;/strong&gt;&lt;br&gt;
+branch는 보통 배포용인 master 외에 추가적으로 만들어 관리한다. 블로그이기 때문에 추가적인 branch 한 개를 더 만들어 내용을 업로드한다. 그러나 그 상태로는 아무리 push를 해도 배포에는 반영이 되지 않기 때문에, 자동으로 수행할 수 있는 &lt;code class=&quot;language-text&quot;&gt;&amp;quot;deploy&amp;quot;: &amp;quot;yarn run clean &amp;amp;&amp;amp; gatsby build &amp;amp;&amp;amp; gh-pages -d public -b master&lt;/code&gt; 명령어를 실행한다.&lt;br&gt;
+이후 배포할 때는 &lt;code class=&quot;language-text&quot;&gt;yarn deploy&lt;/code&gt;를 명령어를 사용하면, 알아서 build, master에 push 그리고 deploy도 실행된다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;​&lt;/p&gt;
+&lt;h5 id=&quot;git-commands&quot;&gt;&lt;a href=&quot;#git-commands&quot; aria-label=&quot;git commands permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;Git Commands&lt;/strong&gt;&lt;/h5&gt;
+&lt;ul&gt;
+&lt;li&gt;git init: local에 새로운 repository를 만든다.&lt;/li&gt;
+&lt;li&gt;git clone: local에 repository를 복사한다.&lt;/li&gt;
+&lt;li&gt;git add: 상태에 1개 혹은 그 이상의 파일을 추가한다.&lt;/li&gt;
+&lt;li&gt;git commit: 상태를 commit한다. repository에 접근하기 바로 전 단계&lt;/li&gt;
+&lt;li&gt;git push { branch }: branch에 commit한 사항을 업로드 한다.&lt;/li&gt;
+&lt;li&gt;git status: 현재의 상태&lt;/li&gt;
+&lt;li&gt;git remote add origin: local에 있는 repository를 서버에 연결할 때 사용한다.&lt;/li&gt;
+&lt;li&gt;git checkout: 해당 repository의 branch 리스트를 보여준다.&lt;/li&gt;
+&lt;li&gt;git checkout { branchname }: 해당 branch로 이동한다.&lt;/li&gt;
+&lt;li&gt;git log: commit한 기록들을 보여준다.&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Westagram]]></title><description><![CDATA[What I learned From Instagram Clone Coding]]></description><link>https://github.com/onikss793/onikss793.github.io/posts/westagram/</link><guid isPermaLink="false">https://github.com/onikss793/onikss793.github.io/posts/westagram/</guid><pubDate>Thu, 03 Oct 2019 15:00:00 GMT</pubDate><content:encoded>&lt;h4 id=&quot;1-login-page&quot;&gt;&lt;a href=&quot;#1-login-page&quot; aria-label=&quot;1 login page permalink&quot; class=&quot;anchor&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;strong&gt;1. LogIn Page&lt;/strong&gt;&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;기본적인 Layout을 짜기 전에 margin과 padding 등을 일일이 계산하지 않도록 &lt;code class=&quot;language-text&quot;&gt;* { box-sizing: border-box }&lt;/code&gt; 를 사용했다.&lt;/li&gt;
 &lt;li&gt;로그인을 전체적으로 감싸고 있는 div를 만든 뒤, Logo - Id&amp;#x26;Password Form - footer(비밀번호 찾기)로 구성했다. 그러나 다시 생각해보니 footer는 document의 맨 아래 위치한 section이기 때문에 적절치 않은 태그인 것 같다. div로 바꾸어도 무방할 듯하다.&lt;/li&gt;
