@@ -29,7 +29,7 @@ media query는 css 내부에 삽입하는 방법, 링크로 연결하는 방법�
 링크로 연결할 때는 아래처럼 하면 된다.
 
 ```js
-<link red="stylesheet" media="(max-width: 700px)" href="test.css" />
+<link ref="stylesheet" media="(max-width: 700px)" href="test.css" />
 ```
 
 ### **연산자**

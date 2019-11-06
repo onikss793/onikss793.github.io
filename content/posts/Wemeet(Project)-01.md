@@ -46,7 +46,7 @@ React는 Router라는 써드 파티 라이브러리를 사용할 수 있다. 이
 Wemeet 프로젝트에서 다양한 이벤트 리스트들이 존재하는데 특정한 이벤트를 클릭할 경우 해당 이벤트에 대한 api 호출을 해야 한다. 결국 이벤트 페이지는 하나이지만 어떠한 데이터를 받아오느냐에 따라 다양한 텍스트가 보여져야 하는 것이다. 같은 페이지이지만 다른 url을 사용하려고 할 때 쓸 수 있는 것이 바로 querystring이다.
 
 ```js
-<Route exact path="/event/:eventId" component={Event} />
+<Route exact path="/event?eventId=id" component={Event} />
 ```
 
 먼저 `<Route>`에 어떠한 기준으로 url을 다르게 할 것인지를 위처럼 `:querystring`으로 구분해야 한다. 위의 경우에는 각각의 이벤트의 아이디를 기준으로 하였다.
