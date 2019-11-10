@@ -49,11 +49,11 @@ Wemeet 프로젝트에서 다양한 이벤트 리스트들이 존재하는데 �
 <Route exact path="/event?eventId=id" component={Event} />
 ```
 
-먼저 `<Route>`에 어떠한 기준으로 url을 다르게 할 것인지를 위처럼 `:querystring`으로 구분해야 한다. 위의 경우에는 각각의 이벤트의 아이디를 기준으로 하였다.
+먼저 `<Route>`에 어떠한 기준으로 url을 다르게 할 것인지를 위처럼 `querystring`으로 구분해야 한다. 위의 경우에는 각각의 이벤트의 아이디를 기준으로 하였다.
 
 ```js
 getData = () => {
-  const { eventId } = this.props.match.params;
+  const eventId = this.props.match.params.id;
   fetch(`http://localhost:8000/event/${eventId}`)
     .then(res => res.json())
     .then(res => console.log(res));
@@ -62,4 +62,4 @@ getData = () => {
 
 그럼 이제 event list가 있는 페이지에서 특정 이벤트를 클릭할 경우, 그 이벤트의 아이디를 기준으로 예를 들면, `https://localhost:8000/event/${특정아이디}` 페이지로 넘어가게 된다.
 
-그 이벤트 페이지가 mount 되는 순간 `const { eventId } = this.props.match.params;` 를 통해 그 이벤트 아이디를 사용해 GET 요청을 보내 해당 데이터를 받을 수 있다.
+그 이벤트 페이지가 mount 되는 순간 `this.props.match.params`를 통해 그 이벤트 아이디를 사용해 GET 요청을 보내 해당 데이터를 받을 수 있다.
