@@ -8,7 +8,7 @@ category: 'IP Subnet'
 tags:
   - 'IP'
   - 'Subnet'
-description: 'How to upload csv file in node.js'
+description: 'What is Ip and Subnet'
 socialImage: ''
 ---
 
