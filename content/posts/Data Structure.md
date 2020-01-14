@@ -23,9 +23,9 @@ socialImage: ''
 
 ### 자료구조의 분류
 
-Primitive : INTEGER FLOAT STRING BOOLEAN
+Primitive : `INTEGER, FLOAT, STRING, BOOLEAN`
 
-일반적으로 자료구조라고 한다면 Non Primitive: Array, List: Linear: Stack, Que, Non Linear: Tree, Tuple Dictionary Set, File
+일반적으로 자료구조라고 한다면 `Non Primitive: Array, List: Linear: Stack, Que, Non Linear: Tree, Tuple Dictionary Set, File` 를 말한다.
 
 ### Array(배열)
 
